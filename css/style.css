@@ -465,6 +465,11 @@ body {
   bottom: 24.1%;
   left: 38.1%;
 }
+@media (max-width: 471px) {
+  .decor-main__item--4 {
+    display: none;
+  }
+}
 .decor-main__item--5 {
   background: url("../img/main/decor/05.svg") 0 0 no-repeat;
   width: 110px;
@@ -478,6 +483,11 @@ body {
   height: 137px;
   bottom: 17.9%;
   right: 0%;
+}
+@media (max-width: 471px) {
+  .decor-main__item--6 {
+    display: none;
+  }
 }
 
 .page__why {
