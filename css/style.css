@@ -290,6 +290,13 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 540px) {
+  .body-main__playblock {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+}
 .body-main__play {
   display: inline-flex;
   font-weight: 700;
